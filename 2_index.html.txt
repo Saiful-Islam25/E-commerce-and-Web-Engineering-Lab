@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigating Webpage</title>
+    
+</head>
+<body>
+    <h1>Welcome to the 2nd Webpage</h1>
+    <nav>
+        <a href="2_image.html"> Go to Home Page</a>
+    </nav>
+
+    <h2>Please click on the image to go to Google</h2>
+
+    <a href="https://www.google.com" target="_blank">
+        <img src="image.jpg" alt="Click to visit Google" width="300">
+    </a>   
+</body>
+</html>

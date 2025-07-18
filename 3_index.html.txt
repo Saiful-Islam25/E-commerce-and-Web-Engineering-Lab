@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Making Webpage</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="3_style.css" />
+
+    <!-- Internal CSS -->
+    <style>
+      .highlight {
+        color: rgb(140, 0, 255);
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>This is My Website</h1>
+      <p>
+        This is an example of <span class="highlight">formatted text </span> by
+        using CSS
+      </p>
+
+      <h2>Example of Table</h2>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Country</th>
+        </tr>
+
+        <tr>
+          <td>Nafis Sheikh</td>
+          <td>21</td>
+          <td>Bangladesh</td>
+        </tr>
+
+        <tr>
+          <td>Nusrat Jahan</td>
+          <td>32</td>
+          <td>Japan</td>
+        </tr>
+      </table>
+
+      <!-- Form -->
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <br /><br />
+
+        <label for="email">Email</label>
+    
+    <input type="email" id="email" name="email" required />
+        <br /><br />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br /><br />
+
+      <button type="submit" style="background: green; color: white; padding: 10px; border: none; cursor: pointer;">Submit</button>
+        <br />
+      </form>
+
+      <!-- Link Example -->
+      <p>
+        Visit our <a href="https://www.example.com">official website</a> for
+        more information.
+      </p>
+    </div>
+  </body>
+</html>
